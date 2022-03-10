@@ -8,7 +8,7 @@ const About = () => {
                     <h1>Covid-19</h1>
                 </div>
                 <div>
-                    <h3>We provide a most covid-19 satuses..</h3>
+                    <h3>We provide a most covid-19 satuses...</h3>
                 </div>
             </div>
         </div>
