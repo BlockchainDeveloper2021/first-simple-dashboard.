@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mb-6 {
+    margin-bottom: 5rem !important;
+}
+
+.disable-shrink {
+    flex: 1 0 auto;
+}
+
+.page-item {
+    cursor: pointer;
+}
+
+.page-item.disabled {
+    cursor: not-allowed;
+}
+
+.btn-primary,
+.btn-primary:focus .btn-primary:active {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #000;
+}
+
+.page-item.active .page-link {
+    background-color: #000;
+    border-color: #000;
+}
+
+.page-link {
+    color: #000;
+}
+
+.page-link:hover {
+    color: #000;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #000;
+}
+
+.nav-pills .sidebar-link.active,
+.nav-pills .show > .sidebar-link {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.disable-scroll {
+    height: 100vh;
+    overflow-y: hidden;
+}
